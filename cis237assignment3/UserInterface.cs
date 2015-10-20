@@ -233,7 +233,9 @@ namespace cis237assignment3
 
             try
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 languageCount = Convert.ToInt32(Console.ReadLine());
+                Console.ForegroundColor = ConsoleColor.White;
             }
             catch
             {
