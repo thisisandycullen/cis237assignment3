@@ -95,8 +95,8 @@ It may be benificial for you to create extra methods within the droid sub classe
 
 http://starwars.wikia.com/wiki/Category:Metals
 
-Found a list of metals in the Star Wars universe.
+Found a list of metals in the Star Wars universe. I used a few of them to populate my list of materials.
 
+## Known Problems, Issues, And/Or Errors in the Program
 
-
-## Known Problems, Issues, And/Or Errors in the Program - Works great!
+Works great!
