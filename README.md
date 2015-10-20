@@ -94,8 +94,10 @@ It may be benificial for you to create extra methods within the droid sub classe
 ## Outside Resources Used:
 
 http://starwars.wikia.com/wiki/Category:Metals
-
 Found a list of metals in the Star Wars universe. I used a few of them to populate my list of materials.
+
+http://www.asciiartfarts.com/star_wars.html
+ASCII art found here.
 
 ## Known Problems, Issues, And/Or Errors in the Program
 
