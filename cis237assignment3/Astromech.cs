@@ -37,7 +37,7 @@ namespace cis237assignment3
         //OVERRIDDEN TO STRING METHOD
         public override string ToString()
         {
-            return base.ToString() + string.Format("{0} - Fire Extinguisher: {1}{0} - Ships: {2}", Environment.NewLine, this.hasFireExtinguisher, this.shipCount);
+            return base.ToString() + string.Format("{0} - Has Fire Extinguisher: {1}{0} - Compatible Ship Count: {2}", Environment.NewLine, this.hasFireExtinguisher, this.shipCount);
         }
 
         //CALCULATES THE TOTAL COST OF AN ASTROMECH DROID BY ADDING ADDITIONAL COST FOR ADDED FEATURES
