@@ -277,7 +277,8 @@ namespace cis237assignment3
         //ASK USER IF COMPCONNECTION IS INCLUDED
         private void CheckForComputerConnection() {
             Console.WriteLine("{0}Does this droid have a computer connection? Y or N: ", Environment.NewLine);
-            userInputString = Console.ReadLine().Trim().ToUpper();
+
+            GetUserInputString();
 
             switch (userInputString)
             {
