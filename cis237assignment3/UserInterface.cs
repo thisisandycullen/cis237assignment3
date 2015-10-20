@@ -294,7 +294,8 @@ namespace cis237assignment3
         //ASK USER IF ARM IS INCLUDED
         private void CheckForArm() {
             Console.WriteLine("{0}Is this droid equipped with an arm? Y or N: ", Environment.NewLine);
-            userInputString = Console.ReadLine().Trim().ToUpper();
+
+            GetUserInputString();
 
             switch (userInputString)
             {
@@ -331,7 +332,8 @@ namespace cis237assignment3
         //ASKS USER IF TRASH COMPACTOR IS INCLUDED
         private void CheckForTrashCompactor() {
             Console.WriteLine("{0}Is this droid equipped with a trash compactor? Y or N: ", Environment.NewLine);
-            userInputString = Console.ReadLine().Trim().ToUpper();
+
+            GetUserInputString();
 
             switch (userInputString)
             {
@@ -348,7 +350,8 @@ namespace cis237assignment3
         //ASKS USER IF VACUUM IS INCLUDED
         private void CheckForVacuum() {
             Console.WriteLine("{0}Is this droid equipped with a vacuum? Y or N: ", Environment.NewLine);
-            userInputString = Console.ReadLine().Trim().ToUpper();
+
+            GetUserInputString();
 
             switch (userInputString)
             {
@@ -369,7 +372,8 @@ namespace cis237assignment3
         //ASKS USER IF EXTINGUISHER IS INCLUDED
         private void CheckForExtinguisher() {
             Console.WriteLine("{0}Is this droid equipped with a fire extinguisher? Y or N: ", Environment.NewLine);
-            userInputString = Console.ReadLine().Trim().ToUpper();
+
+            GetUserInputString();
 
             switch (userInputString)
             {
