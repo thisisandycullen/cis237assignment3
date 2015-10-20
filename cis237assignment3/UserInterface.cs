@@ -70,7 +70,9 @@ namespace cis237assignment3
             {
                 case 1:
                     AddDroid();         //START THE PROCESS OF ADDING A DROID TO THE DROID LIST
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("{0}Droid added successfully.",Environment.NewLine);
+                    Console.ForegroundColor = ConsoleColor.White;
                     break;
                 case 2:
                     ShowDroidList();    //DISPLAY THE LIST OF ADDED DROIDS
