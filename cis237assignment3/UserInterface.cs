@@ -257,7 +257,8 @@ namespace cis237assignment3
         //ASKS USER IF TOOLBOX IS INCLUDED
         private void CheckForToolbox() {
             Console.WriteLine("{0}Is this droid equipped with a Toolbox? Y or N: ", Environment.NewLine);
-            userInputString = Console.ReadLine().Trim().ToUpper();
+            
+            GetUserInputString();
 
             switch (userInputString)
             {
@@ -401,8 +402,16 @@ namespace cis237assignment3
         //GET THE INPUT # CHOSEN BY THE USER
         private void GetUserInputInt()
         {
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Green;
             userInputInt = Convert.ToInt32(Console.ReadLine());
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+        
+        //GET THE INPUT STRING CHOSEN BY THE USER
+        private void GetUserInputString()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            userInputString = Console.ReadLine().Trim().ToUpper();
             Console.ForegroundColor = ConsoleColor.White;
         }
 
