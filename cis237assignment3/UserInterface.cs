@@ -70,11 +70,13 @@ namespace cis237assignment3
             {
                 case 1:
                     AddDroid();         //START THE PROCESS OF ADDING A DROID TO THE DROID LIST
+                    Console.WriteLine("{0}Droid added successfully.",Environment.NewLine)
                     break;
                 case 2:
                     ShowDroidList();    //DISPLAY THE LIST OF ADDED DROIDS
                     break;
                 case 3:
+                    Console.WriteLine("Thank you for utilizing the Jawa Droid Manager!")
                     Environment.Exit(0);    //END THE PROGRAM
                     break;
                 default:
