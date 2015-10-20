@@ -78,7 +78,9 @@ namespace cis237assignment3
                     ShowDroidList();    //DISPLAY THE LIST OF ADDED DROIDS
                     break;
                 case 3:
-                    Console.WriteLine("Thank you for utilizing the Jawa Droid Manager!");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine("{0}Thank you for utilizing the Jawa Droid Manager!{0}", Environment.NewLine);
+                    Console.ForegroundColor = ConsoleColor.White;
                     Environment.Exit(0);    //END THE PROGRAM
                     break;
                 default:
