@@ -401,7 +401,9 @@ namespace cis237assignment3
         //GET THE INPUT # CHOSEN BY THE USER
         private void GetUserInputInt()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             userInputInt = Convert.ToInt32(Console.ReadLine());
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         //THROW AN ERROR ON BAD INPUT IN RED
