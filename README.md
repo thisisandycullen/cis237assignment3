@@ -1,7 +1,7 @@
 # Assignment 3 - Inheritance, Abstract Classes, Interfaces, and Polymorphism
 ## Due: 10-20-2015
 
-## Author
+## Author - Andy Cullen
 
 
 
@@ -91,8 +91,12 @@ If you did not do well on Assignment 1, you may want to look at the Assignment 1
 
 It may be benificial for you to create extra methods within the droid sub classes. You are not limited to the ones mentioned. You may even find it useful to make some additional ones that are protected and virtual.
 
-## Outside Resources Used
+## Outside Resources Used:
+
+http://starwars.wikia.com/wiki/Category:Metals
+
+Found a list of metals in the Star Wars universe.
 
 
 
-## Known Problems, Issues, And/Or Errors in the Program
+## Known Problems, Issues, And/Or Errors in the Program - Works great!
